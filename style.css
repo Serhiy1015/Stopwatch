@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(160, 0, 0);
+    /* font-family: "Orbitron", sans-serif; */
+
+}
+
+#minutes,
+#seconds,
+#two {
+    font-size: 80px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#start,
+#reset {
+    background-color: black;
+    color: rgb(103, 103, 227);
+    border-top-right-radius: 10px;
+    border-bottom: 0;
+    padding: 5px 0;
+    border-top-left-radius: 10px;
+    border: 6px solid rgb(103, 103, 227);
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    ;
+    width: 150px;
+    cursor: pointer;
+
+
+}
+
+#start:hover,
+#reset:hover {
+    cursor: pointer;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: black;
+    color: rgb(103, 103, 227);
+    height: 200px;
+    border-radius: 30px;
+    border: 6px solid rgb(103, 103, 227);
+}
+
+#miliseconds {
+    display: inline-block;
+    width: 30px;
+}
+
+.open-timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: rgb(103, 103, 227);
+    border-top-right-radius: 10px;
+    border-bottom: 0;
+    padding: 5px 0;
+    border-top-left-radius: 10px;
+    border: 6px solid rgb(103, 103, 227);
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    ;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-timer {
+    width: 40%;
+    height: 80vh;
+    background-color: black;
+    border: 6px solid rgb(103, 103, 227);
+    position: fixed;
+    border-radius: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.active-timer {
+    display: flex;
+}
+
+.set-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-parametr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(103, 103, 227);
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.time-parametr input {
+    background-color: rgb(160, 0, 0);
+    outline: 0;
+    border: 2px solid rgb(103, 103, 227);
+    width: 40%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+#timer-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(103, 103, 227);
+    font-size: 40px;
+}
