@@ -68,7 +68,6 @@ body {
 
 
 @media screen and (max-width: 500px) {
-
     #container {
         display: flex;
         flex-direction: column;
@@ -78,7 +77,7 @@ body {
     #start,
     #reset {
         text-align: center;
-        font-size: 16px;        ;
+        font-size: 16px;       
         width: 120px;
         cursor: pointer;
 
