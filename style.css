@@ -66,30 +66,21 @@ body {
     width: 30px;
 }
 
+
 @media screen and (max-width: 500px) {
 
     #container {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
     }
 
     #start,
     #reset {
-        background-color: black;
-        color: rgb(103, 103, 227);
-        border-top-right-radius: 10px;
-        border-bottom: 0;
-        padding: 5px 0pх;
         text-align: center;
-        border-top-left-radius: 10px;
-        border: 6px solid rgb(103, 103, 227);
-        font-family: "Orbitron", sans-serif;
-        font-size: 20px;
-        ;
+        font-size: 16px;        ;
         width: 120px;
         cursor: pointer;
-
 
     }
 
